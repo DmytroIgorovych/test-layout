@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-container">
+        <aside class="sidebar">
+            <div class="sidebar__header">
+                <img src="./images/icons/setting 1.svg" alt="logo">
+                <h1>Dashboard</h1>
+                <span>v.01</span>
+            </div>
+            <nav class="sidebar__nav">
+                <ul class="nav__list">
+                    <li class="nav__item nav-item"><a class="nav-item__link" href="#"><img class="nav-item__image" src="./images/icons/key-square.svg" alt="icon">Dashboard</a></li>
+                    <li class="nav__item nav-item"><a class="nav-item__link" href="#"><img class="nav-item__image" src="./images/icons/3d-square 1.svg" alt="icon">Product</a></li>
+                    <li class="nav__item nav-item active"><a class="nav-item__link" href="#"><img class="nav-item__image" src="./images/icons/user-square 1.svg" alt="icon">Customers</a></li>
+                    <li class="nav__item nav-item"><a class="nav-item__link" href="#"><img class="nav-item__image" src="./images/icons/wallet-money 2.svg" alt="icon">Income</a></li>
+                    <li class="nav__item nav-item"><a class="nav-item__link" href="#"><img class="nav-item__image" src="./images/icons/discount-shape 1.svg" alt="icon">Promote</a></li>
+                    <li class="nav__item nav-item"><a class="nav-item__link" href="#"><img class="nav-item__image" src="./images/icons/message-question 1.svg" alt="icon">Help</a></li>
+                </ul>
+            </nav>
+            <div class="sidebar__footer user">
+                <img class="user__photo" src="./images/Evano_photo.jpg" alt="user_photo">
+                <div class="user__info">
+                    <h3 class="user__name">Evano</h3>
+                    <p class="user__position">Project Manager</p>
+                </div>
+            </div>
+        </aside>
+        <div class="control">
+            <h2 class="control__user-greeting">Hello Evano 👋🏼,</h2>
+            <div class="control__container content">
+                <div class="content__header">
+                    <div class="title">
+                        <h3>All Customers</h3>
+                        <p>Active Members</p>
+                    </div>
+                    <div class="search">
+                        <img src="./images/icons/search 1.svg" alt="search">
+                        <input type="text" placeholder="Search">
+                    </div>
+                </div>
+                <div class="content__data">
+                    <table class="datagrid">
+                        <tr class="datagrid__head">
+                            <th class="datagrid__customer-name">Customer Name</th>
+                            <th class="datagrid__company">Company</th>
+                            <th class="datagrid__phone-number">Phone Number</th>
+                            <th class="datagrid__email">Email</th>
+                            <th class="datagrid__country">Country</th>
+                            <th class="datagrid__status">Status</th>
+                        </tr>
+                        <tr class="datagrid__row">
+                            <td class="datagrid__customer-name">Jane Cooper</td>
+                            <td class="datagrid__company">Microsoft</td>
+                            <td class="datagrid__phone-number">(225) 555-0118</td>
+                            <td class="datagrid__email">jane@microsoft.com</td>
+                            <td class="datagrid__country">United States</td>
+                            <td class="datagrid__status"><span class="active-status">Active</span></td>
+                        </tr>
+                        <tr class="datagrid__row">
+                            <td class="datagrid__customer-name">Floyd Miles</td>
+                            <td class="datagrid__company">Yahoo</td>
+                            <td class="datagrid__phone-number">(205) 555-0100</td>
+                            <td class="datagrid__email">floyd@yahoo.com</td>
+                            <td class="datagrid__country">Kiribati</td>
+                            <td class="datagrid__status"><span class="inactive-status">Inactive</span></td>
+                        </tr>
+                        <tr class="datagrid__row">
+                            <td class="datagrid__customer-name">Ronald Richards</td>
+                            <td class="datagrid__company">Adobe</td>
+                            <td class="datagrid__phone-number">(302) 555-0107</td>
+                            <td class="datagrid__email">ronald@adobe.com</td>
+                            <td class="datagrid__country">Israel</td>
+                            <td class="datagrid__status"><span class="inactive-status">Inactive</span></td>
+                        </tr>
+                        <tr class="datagrid__row">
+                            <td class="datagrid__customer-name">Marvin McKinney</td>
+                            <td class="datagrid__company">Tesla</td>
+                            <td class="datagrid__phone-number">(252) 555-0126</td>
+                            <td class="datagrid__email">marvin@tesla.com</td>
+                            <td class="datagrid__country">Iran</td>
+                            <td class="datagrid__status"><span class="active-status">Active</span></td>
+                        </tr>
+                        <tr class="datagrid__row">
+                            <td class="datagrid__customer-name">Jerome Bell</td>
+                            <td class="datagrid__company">Google</td>
+                            <td class="datagrid__phone-number">(629) 555-0129</td>
+                            <td class="datagrid__email">jerome@google.com</td>
+                            <td class="datagrid__country">Réunion</td>
+                            <td class="datagrid__status"><span class="active-status">Active</span></td>
+                        </tr>
+                        <tr class="datagrid__row">
+                            <td class="datagrid__customer-name">Kathryn Murphy</td>
+                            <td class="datagrid__company">Microsoft</td>
+                            <td class="datagrid__phone-number">(406) 555-0120</td>
+                            <td class="datagrid__email">kathryn@microsoft.com</td>
+                            <td class="datagrid__country">Curaçao</td>
+                            <td class="datagrid__status"><span class="active-status">Active</span></td>
+                        </tr>
+                        <tr class="datagrid__row">
+                            <td class="datagrid__customer-name">Jacob Jones</td>
+                            <td class="datagrid__company">Yahoo</td>
+                            <td class="datagrid__phone-number">(208) 555-0112</td>
+                            <td class="datagrid__email">jacob@yahoo.com</td>
+                            <td class="datagrid__country">Brazil</td>
+                            <td class="datagrid__status"><span class="active-status">Active</span></td>
+                        </tr>
+                        <tr class="datagrid__row">
+                            <td class="datagrid__customer-name">Kristin Watson</td>
+                            <td class="datagrid__company">Facebook</td>
+                            <td class="datagrid__phone-number">(704) 555-0127</td>
+                            <td class="datagrid__email">kristin@facebook.com</td>
+                            <td class="datagrid__country">Åland Islands</td>
+                            <td class="datagrid__status"><span class="inactive-status">Inactive</span></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="content__footer footer">
+                    <p class="footer__data-show">Showing data 1 to 8 of 256K entries</p>
+                    <div class="footer__pagination">
+                        <a href="#" class="pagination__link"><</a>
+                        <a href="#" class="pagination__link active">1</a>
+                        <a href="#" class="pagination__link">2</a>
+                        <a href="#" class="pagination__link">3</a>
+                        <a href="#" class="pagination__link">4</a>
+                        <span>...</span>
+                        <a href="#" class="pagination__link">40</a>
+                        <a href="#" class="pagination__link">></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
